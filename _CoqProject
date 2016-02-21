@@ -1,0 +1,8 @@
+-R theories MyNum
+-I src
+CAMLP4OPTIONS = "-loc loc"
+src/my_nat_syntax.ml
+src/my_nat_syntax_plugin.mllib
+src/my_nat_syntax_plugin_mod.ml
+theories/mynat.v
+theories/test.v
