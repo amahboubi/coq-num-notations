@@ -9,3 +9,5 @@ It includes:
 - a _CoqProject file setting the right options for everything to be both properly installed and usable in "dev mode" (i.e.
   when editing the .v files under ./theories). Users of the ProofGeneral interface should pay attention at the incantation
   which starts the mynat.v file, which seems necessary to be able to load the plugin in this dev mode.
+
+It has been tested with Coq v8.5. Build a makefile by executing `coq_makefile -f _CoqProject -o Makefile` at the root of the directory, then compile the whole with `make`.
